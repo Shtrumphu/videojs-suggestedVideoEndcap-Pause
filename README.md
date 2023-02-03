@@ -16,7 +16,7 @@ It also uses [flexbox](http://caniuse.com/flexbox).
 2. Add the [videojs-suggestedVideoEndcap](https://github.com/jmccraw/videojs-suggestedVideoEndcap/blob/master/videojs.suggestedVideoEndcap.css) CSS to your page
 3. Add the [videojs-suggestedVideoEndcap](https://github.com/jmccraw/videojs-suggestedVideoEndcap/blob/master/videojs.suggestedVideoEndcap.js) JavaScript to your page
 4. Initialize the plugin with some related endcap content in JSON format
-5. Test to see that, after the video ends, the related endcap appears with your related content
+5. Test to see that, when paused or after the video ends, the related endcap appears with your related content
 
 ### Example
 Below is a sample use case. Feel free to add the videojs-suggestedVideoEndcap CSS/JS to your own project how you see fit. Separated here as an example.
