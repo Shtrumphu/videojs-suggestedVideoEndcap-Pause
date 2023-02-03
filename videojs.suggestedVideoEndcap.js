@@ -76,6 +76,10 @@
     player.on('ended', function() {
       _sve.classList.add('is-active');
     });
+    
+    player.on('pause', function() {
+      _sve.classList.add('is-active');
+    });
 
     player.on('play', function() {
       _sve.classList.remove('is-active');
